@@ -1,0 +1,39 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	background-color: #00cdcf;
+	color:white;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 300;
+}
+h1{
+	width: 50%;
+	margin: 50px auto;
+	padding: 40px 80px;
+	border-width: 3px 1px;
+	border-style: double ridge;
+	border-color: #ffffff;
+	text-align: center;
+	font-weight: inherit;
+}
+p { 
+	text-align: center;
+}
+strong {
+	font-weight: 700;
+}
+a {
+	color: inherit;
+	background-color: #009a9c;
+	cursor: pointer;
+	display: inline-block;
+	height: 1.5px;
+	line-height: 1.5px;
+	padding: 1em;
+	border:0;
+	border-radius: 0;
+	white-space: nowrap;
+	text-decoration: none;
+	margin: 25px auto;
+
+}

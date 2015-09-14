@@ -1,0 +1,37 @@
+body {
+	background-color: #af1641;
+	font-family: 'Signika', sans-serif;
+	color: white;
+}
+h1 {
+	text-align: left;
+}
+p {
+	text-align: center;
+}
+h4 {
+	color: grey;
+	text-align: center;
+}
+h5 {
+	text-align: center;
+	position: fixed;
+}
+a{
+	background-color: orange;
+	text-align: right;
+	position: relative;
+	bottom: 45px;
+	position: relative;
+	left: 500px;
+	display: inline block;
+	text-decoration: none;
+	margin: auto;
+
+}
+div {
+	text-align: center;
+	}
+strong {
+
+}

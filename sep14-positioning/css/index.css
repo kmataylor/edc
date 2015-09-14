@@ -1,0 +1,137 @@
+body {
+	background-color: hsla(0, 0%, 0%, .25);
+	margin: 0;
+}
+div {
+	background-color: hsla(0, 0%, 100%, 1);
+	width: 50vw;
+	height: 50vw;
+	margin: 50px auto;
+	position: relative;
+	border-radius: 15px;
+}
+img.viv {
+	width: 25%;
+	height: 25%;
+	/*float: right;*/
+	position: absolute;
+	/*position: static is default, relative, absolute, fixed;*/
+	right: 39%;
+	top: 39%;
+}
+img.see {
+	width: 25%;
+	height: 25%;
+	/*float: right;*/
+	position: absolute;
+	/*position: static is default, relative, absolute, fixed;*/
+	right: 0;
+	bottom: 0;
+}
+img.bee {
+	width: 25%;
+	height: 25%;
+	/*float: right;*/
+	position: absolute;
+	/*position: static is default, relative, absolute, fixed;*/
+	left: 0;
+	top: 0;
+}
+img.re {
+	width: 25%;
+	height: 25%;
+	/*float: right;*/
+	position: absolute;
+	/*position: static is default, relative, absolute, fixed;*/
+	right: 0;
+	top: 0;
+}
+img.fe {
+	width: 25%;
+	height: 25%;
+	/*float: right;*/
+	position: absolute;
+	/*position: static is default, relative, absolute, fixed;*/
+	right: 38%;
+	top: 38%;
+}
+img.se {
+	width: 25%;
+	height: 25%;
+	/*float: right;*/
+	position: absolute;
+	/*position: static is default, relative, absolute, fixed;*/
+	left: 0;
+	bottom: 0;
+}
+img.now {
+	width: 25%;
+	height: 25%;
+	/*float: right;*/
+	position: absolute;
+	/*position: static is default, relative, absolute, fixed;*/
+	left: 0;
+	top: 38%;
+}
+img.thier {
+	width: 25%;
+	height: 25%;
+	/*float: right;*/
+	position: absolute;
+	/*position: static is default, relative, absolute, fixed;*/
+	right: 0;
+	bottom: 38%;
+}
+img.well {
+	width: 25%;
+	height: 25%;
+	/*float: right;*/
+	position: absolute;
+	/*position: static is default, relative, absolute, fixed;*/
+	right: 0;
+	top: 0;
+}
+img.is {
+	width: 25%;
+	height: 25%;
+	/*float: right;*/
+	position: absolute;
+	/*position: static is default, relative, absolute, fixed;*/
+	right: 0;
+	bottom: 0;
+}
+img.it {
+	width: 25%;
+	height: 25%;
+	/*float: right;*/
+	position: absolute;
+	/*position: static is default, relative, absolute, fixed;*/
+	left: 0;
+	top: 0;
+}
+img.in {
+	width: 25%;
+	height: 25%;
+	/*float: right;*/
+	position: absolute;
+	/*position: static is default, relative, absolute, fixed;*/
+	left: 0;
+	bottom: 0;
+}
+img.there {
+	width: 25%;
+	height: 25%;
+	/*float: right;*/
+	position: absolute;
+	/*position: static is default, relative, absolute, fixed;*/
+	top: 39%;
+	left: 39%;
+}
+/*clearfix clears floats*/
+div::after {
+	content:"";
+	display: block;
+	/*background-color: red;
+	height: 1px;*/
+	clear: both;
+}

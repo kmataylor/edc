@@ -1,0 +1,92 @@
+body {
+	text-align: center;
+	font-family: Roboto, Helvetica, sans-serif;
+
+}
+div.viv {
+	margin-top: 45px;
+	text-align: center;
+	padding: auto;
+	color: white;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-image: url(../img/banner.jpg);
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 75%;
+}
+h1 {
+	float: left;
+	margin: 0 auto;
+	width: 10px;
+	font-size: 20px;
+}
+h2 {
+	text-transform: uppercase;
+	margin: 200 auto;
+	letter-spacing: 0.125em;
+	font-size: 60px;
+}
+strong {
+	text-transform: uppercase;
+	color: white;
+}
+p {
+	margin: 50px auto;
+	color: grey;
+	font-size: 20px;
+	width: 400px;
+
+}
+div.viv a {
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	font-size: 150%;
+	border-color: hsla(180, 30%, 50%, 1);
+	border-width: 2px;
+	padding: 0 0 auto auto;
+	border-style: solid;
+	text-transform: uppercase;
+	margin: 10px auto 10px;
+	width: 200px;
+	background-color: hsla(180, 30%, 50%, 1);
+	border-radius: 6px;
+	text-align: center;
+	vertical-align: baseline;
+}
+a:nth-of-type(9) {
+	background-color: grey;
+}
+form a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: grey;
+	margin: 0 auto;
+	width: 0;
+
+	text-align: right;
+
+}
+a.siv {
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	font-size: 80%;
+	border-color: hsla(180, 30%, 50%, 1);
+	border-width: 2px;
+	padding: 0;
+	border-style: solid;
+	text-transform: uppercase;
+	margin: 10px auto 10px;
+	width: 100px;
+	background-color: hsla(180, 30%, 50%, 1);
+	border-radius: 6px;
+	text-align: center;
+	vertical-align: baseline;
+}
