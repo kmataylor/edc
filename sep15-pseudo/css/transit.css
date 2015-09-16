@@ -39,7 +39,50 @@ h2 {
 		text-align: center;
 		padding-left: 30px;
 }
+.bot {
+		border-top: 2px solid hsl(0, 0%, 85%);
+		background-color: white;
+		margin: 50px 0 0 0;
+		text-align: center;
+		padding-left: 30px;
+		width: 100vw auto;
+}
+.blu {
+		border-top: 2px solid hsl(0, 0%, 85%);
+		background-color: hsla(195, 64%, 53%, 1);
+		margin: 50px 0 0 0;
+		text-align: center;
+		padding-left: 30px;
+		width: 100vw auto;
+}
+.name {
+	margin: 20px 0 20px 0;
+	width: 95%;
+	height: 60px;
+	border-radius: 10px;
+	border: 1px solid hsla(195, 64%, 53%, 1);
 
+}
+.message {
+	margin: 20px 0 20px 0;
+	width: 95%;
+	height: 170px;
+	border-radius: 10px;
+	border: 1px solid hsla(195, 64%, 53%, 1);
+	text-align: start;
+}
+.send {
+	margin: 20px auto;
+	width: 30%;
+	height: 60px;
+	border-radius: 40px;
+	border: 1px solid hsla(195, 64%, 53%, 1);
+	background-color: hsla(226, 9%, 29%, 1);
+	font-size: 20px;
+	text-align: center;
+	white-space: nowrap;
+	color: white;
+}
 h3 {
 	text-align: center;
 	color: grey;
@@ -52,7 +95,24 @@ h3 {
 	font-size: 20px;
 	margin: 20px 0 40px;
 }
-a {
+.btm {
+	text-align: center;
+	color: grey;
+	font-size: 26px;
+	margin: 0 auto;
+	height: 300px;
+}
+.lst {
+	text-decoration: none;
+	color: white;
+	border: 1px solid hsl(195, 64%, 53%);
+	border-radius: 30px;
+	background-color: hsl(195, 64%, 53%);
+	padding: 10px;
+	font-size: 25px;
+
+}
+.is {
 	text-decoration: none;
 	color: white;
 	border: 1px solid hsl(195, 64%, 53%);
@@ -60,6 +120,15 @@ a {
 	background-color: hsl(195, 64%, 53%);
 	padding: 10px;
 	font-size: 30px;
+}
+.ulb {
+	text-align: center;
+	color: grey;
+	font-size: 26px;
+	margin: 0 auto;
+}
+input {
+	display: block;
 }
 body {
 	margin: 0;

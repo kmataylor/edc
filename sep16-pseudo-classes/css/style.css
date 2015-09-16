@@ -1,0 +1,97 @@
+ul {
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+	background-color: hsla(0, 0%, 19%, 1);
+	width: 25vw;
+	color: hsla(0, 0%, 92%, 1);
+}
+ul:hover {
+	box-shadow: 5px 5px 10px black;
+	transition: box-shadow .50s ease-in-out;
+}
+body {
+	font-family: sans-serif;
+	/*background-color: black;*/
+}
+a {
+	text-decoration: none;
+	color: inherit;
+	text-shadow: 4px 4px 1px black;
+	display: block;
+	padding: 20px;
+	transition: text-shadow .50s ease-in-out;
+	transition: color .50s ease-in-out;
+}
+a:hover {
+	color: hsla(480, 70%, 40%, 1);
+	text-shadow: 4px 4px 1px hsla(480, 70%, 15%, 1);
+	transition: color .50s ease-in-out;
+}
+li {
+	border-bottom: 1px solid hsla(0, 0%, 9%, 1);
+	transition: background-color .50s ease-in-out;
+}
+li:nth-child(1) figure {
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/PortraitOfAnIguana.jpg/250px-PortraitOfAnIguana.jpg);
+	background-position: center top;
+}
+li:nth-child(2) figure {
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Sceloporus_occidentalis_08290.JPG/250px-Sceloporus_occidentalis_08290.JPG);
+	background-position: center top;
+}
+li:nth-child(3) figure {
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Chelonia_mydas_is_going_for_the_air.jpg/220px-Chelonia_mydas_is_going_for_the_air.jpg);
+	background-position: center top;
+}
+li:nth-child(4) figure {
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ball_python_lucy.JPG/220px-Ball_python_lucy.JPG);
+	background-position: center left;
+}
+li:nth-child(5) figure {
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Phelsuma_l._laticauda.jpg/220px-Phelsuma_l._laticauda.jpg);
+	background-position: center bottom;
+}
+li:nth-child(5) {
+	border: none;
+}
+li:hover {
+	background-color: hsla(10, 70%, 10%, 1);
+	box-shadow: 4px 4px 10px black;
+}
+i {
+	margin-right: 10px;
+	float: left;
+}
+li:hover div {
+	height: 25vw;
+}
+li div {
+	width: 25vw;
+	height: 0vw;
+	background-color: hsla(0, 0%, 92%, 1);
+	position: relative;
+	overflow: hidden;
+	transition: height .50s ease-in-out;
+}
+li figure {
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+figure {
+	margin: 0;
+	height: 100%;
+}
+figcaption {
+	color: hsla(0, 0%, 9%, 1);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 10px;
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	text-align: center;
+	font-style: italic;
+	background-color: hsla(0, 0%, 100%, .45);
+}

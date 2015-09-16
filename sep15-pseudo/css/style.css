@@ -10,16 +10,17 @@
 .eye::before {
 	content: "";
 	display: block;
-	border-width: 50px 98px 50px 98px;
+	border-width: 48px 98px 48px 98px;
 	border-style: solid;
-	border-color: red blue green purple;
+	border-color: white;
 	position: absolute;
-	top: 0%;
+	top: -1%;
 	left: 0%;
 	border-radius: 50%;
 	width: 25px;
 	height: 25px;
 	background-color: black;
+	box-shadow: 0px 0px 100px hsla(1, 0%, 0%, 1);
 }
 .bubble {
 	background-color: hsla(190, 50%, 80%, 1);
