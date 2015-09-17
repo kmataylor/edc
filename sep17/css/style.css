@@ -1,0 +1,102 @@
+header {
+	background-color: hsl(0, 0%, 20%);
+	color: white;
+	text-align: center;
+	margin: 0 auto;
+	height: 250px;
+	font-family: sans-serif;
+}
+h1 {
+	padding-top: 60px;
+	padding-bottom: 0;
+	font-size: 45px;
+	font-weight: bold;
+	margin-top: 0;
+}
+a.fst {
+	text-decoration: none;
+	color: inherit;
+}
+a.nxt {
+	color: black;
+	text-decoration: underline;
+}
+a.lst {
+	color: grey;
+	text-decoration: underline;
+}
+a.fuu {
+	text-decoration: none;
+	color: white;
+	width: 60px;
+	padding: 20px auto;
+
+}
+.ill {
+	display: inline-block;
+	margin-top: 40px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.fuu:hover {
+	background-color: hsl(168, 76%, 56%)
+}
+h4 {
+	margin-left: 40px;
+	color: white;
+}
+.btm {
+	background-color: hsl(15, 7%, 11%);
+	margin-top: 40px;
+	padding-top: 40px;
+}
+.nav {
+	list-style-type: none;
+	border: none;
+	background-color: hsl(168, 76%, 36%);
+	margin: 0 auto;
+	height: 100px;
+	text-align: center;
+}
+.vid {
+	list-style-type: none;
+	line-height: 45px;
+	margin-bottom: 0;
+}
+.il {
+	border-bottom: 2px solid grey;
+	width: 50%;
+}
+h2 {
+	color: hsl(168, 76%, 36%);
+}
+.par {
+	margin-top: 60px;
+	width: 60%;
+}
+.top {
+	color: hsl(0, 0%, 44%)
+}
+.mid {
+	color: hsl(0, 0%, 44%)
+}
+.bot {
+	color: hsl(0, 0%, 44%)
+}
+.img {
+	background-image: url(http://templated.co/items/demos/grassygrass/images/pic01.jpg);
+	height: 450px;
+}
+.end {
+	background-color: hsl(168, 76%, 36%);
+	padding: 80px;
+	text-align: center;
+	color: rgba(255,255,255,.5);
+}
+.par {
+	background-color: white;
+}
+body {
+	margin: 0;
+	font-family: sans-serif;
+}
