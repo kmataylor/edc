@@ -5,6 +5,10 @@ $overlay: hsla(0, 0%, 0%, .65);
 $white: hsla(0, 0%, 95%, 1);
 $blue-grad: hsla(201, 77%, 52%, .65);
 $red-grad: hsla(358, 80%, 52%, .65);
+$blue: hsla(208, 56%, 60%, 1);
+$purple: hsla(227, 64%, 67%, 1);
+$pink: hsla(337, 61%, 71%, 1);
+$gray: hsla(0, 0%, 56%, .25);
 
 body {
 	margin: 0;
@@ -87,5 +91,77 @@ header {
 }
 
 #promos {
+	i {
+		margin-right: 10px;
+		float: left;
+		&::before {
+			display: inline-block;
+			width: 2.5em;
+			height: 2.5em;
+			line-height: 2.5em;
+			text-align: center;
+			border: {
+				width: 2px;
+				style: solid;
+				color: $gray;
+				radius:100%;
+			}
+		}
+	}
+	i:nth-of-type(3n+1){
+		color:$blue;
+	}
+	i:nth-of-type(3n+2){
+		color:$purple;
+	}
+	i:nth-of-type(3n+3){
+		color:$pink;
+	}
+	h3 {
+		float: left;
+		width: 35%;
+		display: inline-block;
+	}
+	.content div {
+		float: right;
+		width: 50%;
+		margin-bottom: 2em;
+	}
+	hr {
+		clear: both;
+		margin: 2em 0;
+		border-color: $gray;
+		border-style: solid;
+	}
+	hr:last-of-type {
+		opacity: 0;
+	}
+}
+
+#how-it-works {
+	color: $white;
 	
+	.content {
+		background-color: $overlay;
+	}
+	.content::before, .content::after {
+		content: "";
+		display: block;
+		clear: both;
+	}
+	background: {
+		image:url("../img/overlay.png"), linear-gradient(45deg, $blue-grad, $red-grad), url("../img/cta.jpg");
+		position: center, center, center;
+		repeat: repeat, no-repeat, no-repeat;
+		size: auto auto, auto auto, cover;
+		attachment: fixed, fixed, fixed;
+	}
+	.content div:first-child {
+		width: 40%;
+		float: left;
+	}
+	.content div:last-child {
+		width: 50%;
+		float: right;
+	}
 }

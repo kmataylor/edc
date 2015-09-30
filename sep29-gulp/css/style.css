@@ -78,3 +78,72 @@ header .cta {
 header .btn {
   float: right;
 }
+
+#promos i {
+  margin-right: 10px;
+  float: left;
+}
+#promos i::before {
+  display: inline-block;
+  width: 2.5em;
+  height: 2.5em;
+  line-height: 2.5em;
+  text-align: center;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgba(143, 143, 143, 0.25);
+  border-radius: 100%;
+}
+#promos i:nth-of-type(3n+1) {
+  color: #609dd2;
+}
+#promos i:nth-of-type(3n+2) {
+  color: #758ce1;
+}
+#promos i:nth-of-type(3n+3) {
+  color: #e288ab;
+}
+#promos h3 {
+  float: left;
+  width: 35%;
+  display: inline-block;
+}
+#promos .content div {
+  float: right;
+  width: 50%;
+  margin-bottom: 2em;
+}
+#promos hr {
+  clear: both;
+  margin: 2em 0;
+  border-color: rgba(143, 143, 143, 0.25);
+  border-style: solid;
+}
+#promos hr:last-of-type {
+  opacity: 0;
+}
+
+#how-it-works {
+  color: #f2f2f2;
+  background-image: url("../img/overlay.png"), linear-gradient(45deg, rgba(38, 161, 227, 0.65), rgba(231, 35, 41, 0.65)), url("../img/cta.jpg");
+  background-position: center, center, center;
+  background-repeat: repeat, no-repeat, no-repeat;
+  background-size: auto auto, auto auto, cover;
+  background-attachment: fixed, fixed, fixed;
+}
+#how-it-works .content {
+  background-color: rgba(0, 0, 0, 0.65);
+}
+#how-it-works .content::before, #how-it-works .content::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+#how-it-works .content div:first-child {
+  width: 40%;
+  float: left;
+}
+#how-it-works .content div:last-child {
+  width: 50%;
+  float: right;
+}

@@ -185,14 +185,12 @@ div {
 	text-align: center;
 }
 #lwrsec div {
-	width: 300px;
 	margin: 0 auto;
 	margin-top: 50px;
-	transition: 1000ms;
-	border-radius: 100%;
-}
-#lwrsec div:hover {
-	transition: 1000ms;
+	border-radius: 30%;
+	background-color: hsla(240, 0%, 0%, 0.81);
+	text-align: center;
+	width: 300px;
 }
 #lwrsec a {
 	text-decoration: none;
@@ -200,9 +198,10 @@ div {
 	text-shadow: 0px 0px 1px hsla(1, 100%, 100%, 0.21);
 	font-size: 60px;
 	display: inline-block;
-	margin-top: 70px;
+	margin-top: 65px;
 	width: 200px; 
 	transition: 500ms;
+	text-align: center;
 }
 #lwrsec a:hover {
 	color: hsla(1, 100%, 100%, .1);
@@ -210,4 +209,39 @@ div {
 	background-color: hsla(1, 100%, 0%, .40);
 	border-radius: 15px;
 	transition: 500ms;
+}
+#btmsec {
+	margin-top: 50px;
+	height: 100px;
+}
+#btmsec div {
+	background-color: hsla(1, 100%, 20%, 0.21);
+	border: 2px solid hsla(0, 0%, 5%, .4);
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	margin: 0;
+	color: hsla(0, 0%, 50%, .8);
+	text-align: center;
+	height: 100px;
+	transition: 800ms;
+}
+#btmsec div:hover {
+	background-color: hsla(1, 100%, 0%, 1);
+	border: 2px solid hsla(0, 0%, 100%, 1);
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	margin: 0;
+	color: hsla(0, 0%, 100%, 1);
+	text-align: center;
+	transition: 800ms;
+}
+#btmsec h2 {
+	margin-top: 50px;
+}
+#btmsec p {
+	text-align: center;
+	margin-right: 80px;
+	margin-left: 80px;
 }
